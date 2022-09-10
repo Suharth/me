@@ -18,20 +18,20 @@ body{
     margin: 0%;
     display: flex;
     justify-content: space-between;
-    padding: 10px;
-    font-size:xx-large;
+    padding: 1vh;
+    font-size:2.5vh;
 }
 
 .header-name{
     text-transform: uppercase;
     font-weight: 900;
-    letter-spacing: 3px;
+    letter-spacing: 0.4vh;
     color: white;
 }
 
 .header-links{
     display: flex;
-    gap: 40px;
+    gap: 4vh;
 }
 
 
@@ -59,7 +59,7 @@ body{
 .content-text{
     font-weight: 900;
     font-size: 8vh;
-    letter-spacing: 3px;
+    letter-spacing: 0.4vh;
     color: black;
     margin: 0%;
     width: 100%;
@@ -70,23 +70,23 @@ body{
     background-color: black;
     text-align: center;
     color: white;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 1.75vh;
+    padding-bottom: 1.75vh;
 }
 
 .footer-link{
     text-decoration: none;
-    font-size: 18px;
+    font-size: 1.7vh;
     color: #E5E7EB;
 }
 
 .main-button{
   background-color: #199319;
   color: white;
-  padding: 15px 25px;
+  padding: 1.5vh 2.5vh;
   text-decoration: none;
-  font-size:250%;
-  border-radius: 4px;
+  font-size: 4vh;
+  border-radius: 0.4vh;
 }
 
 a{
