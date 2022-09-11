@@ -12,6 +12,12 @@ body{
     background-color: black;
 }
 
+.wrapper{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
 .header{
     background-color: black;
     color: white;
@@ -51,7 +57,7 @@ body{
 }
 
 .body{
-    height: 92.5vh;
+    flex-grow: 1;
     display: flex;
     background-color: #e9e8eb;
     background-image: url(img/bg.jpg);
@@ -60,10 +66,27 @@ body{
     justify-content: right;
 }
 
-.side-body{
-    height: 92.5vh;
+.connect-body{
+    flex-grow: 1;
     background-color: #e9e8eb;
     background-size: auto 100%;
+}
+
+.connect-body .row{
+    padding: 0.9vh 0;
+}
+
+.connect-body .card .col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.connect-body .card-text{
+    font-weight: 900;
+    letter-spacing: 0.4vh;
+    font-size: xx-large;
 }
 
 .content{
@@ -99,7 +122,6 @@ body{
     color: white;
     padding-top: 1.75vh;
     padding-bottom: 1.75vh;
-    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
