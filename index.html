@@ -5,18 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Suharth Shetty</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="header">
+    <div class="header" id="myHeader">
         <div class="header-name">Suharth Shetty</div>
-        <div class="header-links">
-            <a href="https://suharth.github.io/me/">Home</a>
-            <a href="google.com">About</a>
-            <a href="google.com">Education</a>
-            <a href="google.com">Skills</a>
-            <a href="google.com">Projects</a>
-            <a href="google.com">Contact</a>
+        <div>
+            <a class="link" href="https://suharth.github.io/me/">Home</a>
+            <a class="link" href="google.com">About</a>
+            <a class="link" href="google.com">Skills</a>
+            <a class="link" href="google.com">Projects</a>
+            <a class="link" href="google.com">Contact</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
         </div>
     </div>
     <div class="body">
@@ -31,5 +34,16 @@
     <div class="footer">
         <a class="footer-link" href="https://github.com/Suharth/me">View Source Code</a>
     </div>
+
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myHeader");
+          if (x.className === "header") {
+            x.className += " responsive";
+          } else {
+            x.className = "header";
+          }
+        }
+    </script>
 </body>
 </html>
