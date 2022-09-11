@@ -20,7 +20,6 @@ body{
     justify-content: space-between;
     padding: 1vh;
     font-size:2.5vh;
-    overflow: hidden;
     align-items: center;
 }
 
@@ -44,6 +43,7 @@ body{
 .header .link:hover {
     background-color: #e9e8eb;
     color: black;
+    border-radius: 0.4vh;
 }
 
 .header .icon {
@@ -57,8 +57,13 @@ body{
     background-image: url(img/bg.jpg);
     background-repeat: no-repeat;
     background-size:auto 100%;
-    display: flex;
     justify-content: right;
+}
+
+.side-body{
+    height: 92.5vh;
+    background-color: #e9e8eb;
+    background-size: auto 100%;
 }
 
 .content{
@@ -94,6 +99,10 @@ body{
     color: white;
     padding-top: 1.75vh;
     padding-bottom: 1.75vh;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 
 .footer-link{
@@ -116,7 +125,7 @@ a{
     color: white;
 }
 
-@media screen and (max-width: 912px) {
+@media screen and (max-width: 992px) {
     .header a {display: none;}
     .header a.icon {
       float: right;
@@ -132,6 +141,14 @@ a{
     }
     .header-name{
     text-align:center;}
+
+    .body{
+        align-items: flex-end;
+    }
+
+    .content{
+        height: 73vh;
+    }
 
     .content-text{
         font-size: 7vw;
@@ -155,7 +172,7 @@ a{
     }
 }
   
-@media screen and (max-width: 912px) {
+@media screen and (max-width: 992px) {
     .header {display:block;}
     .header.responsive {position: relative;}
     .header.responsive .icon {
@@ -169,4 +186,3 @@ a{
       text-align: left;
     }
 }
-
