@@ -36,8 +36,7 @@ body{
 
 
 .body{
-    height: 92.5%;
-    width: auto;
+    height: 92.5vh;
     display: flex;
     background-color: #e9e8eb;
     background-image: url(img/bg.jpg);
