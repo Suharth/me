@@ -144,31 +144,29 @@ a{
 
     .body{
         align-items: flex-end;
+        justify-content: right;
     }
 
     .content{
         height: 78%;
+        gap: 15px;
+        padding: 2vw;
     }
 
     .content-text{
-        font-size: 7vw;
+        font-size: 6vw;
         letter-spacing: 0.8vw;
-        gap: 4vw;
+        gap: 3px;
     }
 
     .subtext{
-        font-size: 6vw;
+        font-size: 4vw;
     }
 
     .main-button{
         padding: 3vw 5vw;
-        font-size: 4vw;
+        font-size: 3vw;
         border-radius: 0.8vw;
-    }
-
-    .content{
-        gap: 1vw;
-        padding: 2vw;
     }
 }
   
