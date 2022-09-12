@@ -147,6 +147,10 @@ a{
     color: white;
 }
 
+a:hover{
+    color: white;
+}
+
 @media screen and (max-width: 992px) {
     .header a {display: none;}
     .header a.icon {
@@ -205,8 +209,4 @@ a{
       display: block;
       text-align: left;
     }
-}
-
-.bweh{
-    background-color: pink;
 }
