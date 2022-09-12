@@ -13,10 +13,10 @@
     <div class="header" id="myHeader">
         <div class="header-name">Suharth Shetty</div>
         <div>
-            <a class="link" href="https://suharth.github.io/me/">Home</a>
-            <a class="link" href="google.com">About</a>
-            <a class="link" href="google.com">Skills</a>
-            <a class="link" href="google.com">Projects</a>
+            <a class="link" href="index.html">Home</a>
+            <a class="link undone" href="javascript:void(0)">About</a>
+            <a class="link undone" href="javascript:void(0)">Skills</a>
+            <a class="link undone" href="javascript:void(0)">Projects</a>
             <a class="link" href="connect.html">Connect</a>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                 <i class="fa fa-bars"></i>
@@ -46,6 +46,10 @@
             x.className = "header";
           }
         }
+        
+        let undoneTabs=document.getElementsByClassName("undone");
+        for(let i=0;i<undoneTabs.length;i++) undoneTabs[i].addEventListener("click",function(){alert("Page Under Construction");})
+
     </script>
 </body>
 </html>
